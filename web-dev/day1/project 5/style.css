@@ -1,0 +1,22 @@
+body {
+    background-color: #9d6cb8;
+}
+
+#start {
+    align-items: center;
+    margin-right: 30px;
+    font-size: 28px;
+    background-color: rgb(255, 255, 255);
+    width: 100px;
+    height: 40px;
+    cursor: pointer;
+}
+
+#stop {
+    cursor: pointer;
+    align-items: center;
+    font-size: 28px;
+    background-color: rgb(255, 255, 255);
+    width: 100px;
+    height: 40px;
+}
