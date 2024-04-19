@@ -16,12 +16,15 @@ function changeBackgroundColor() {
 }
 
 start.addEventListener('click', function() {
+    if(!bgChanger){
     bgChanger = setInterval(changeBackgroundColor, 50)
+    }
 })
 
 
 stop.addEventListener('click', function() {
     clearInterval(bgChanger)
+    bgChanger = null
 })
 
 
